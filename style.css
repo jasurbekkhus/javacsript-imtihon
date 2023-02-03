@@ -1,0 +1,1417 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #ddd;
+}
+
+.ota{
+    width: 100%;
+}
+
+.begi{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    position: relative;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+.mi img{
+    width: 58px;
+    height: 55px;
+    margin: 0 30px;
+}
+.collection{
+    display: flex;
+    list-style: none;
+    margin-top: 18px;
+    
+}
+
+.item{
+    position: relative;
+    margin-left: 45px;
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.item:after{
+    content: "";
+    position: absolute;
+    background-color: #ff663c;
+    width: 0;
+    height: 3px;
+    left: 0;
+    top: 20px;
+    bottom: 0 -10px;
+}
+
+.item:hover:after{
+    width: 100%;
+    transition: 0.2s;
+}
+
+
+
+.ittem:after{
+    content: "";
+    position: absolute;
+    background-color: #ff663c;
+    width: 0;
+    height: 3px;
+    left: 0;
+    top: 20px;
+    bottom: 0 -10px;
+}
+.ittem:hover:after{
+    width: 100%;
+    transition: 0.2s;
+}
+
+.ettem:after{
+    content: "";
+    position: absolute;
+    background-color: #ff663c;
+    width: 0;
+    height: 3px;
+    left: 0;
+    top: 20px;
+    bottom: 0 -10px;
+}
+.ettem:hover:after{
+    width: 100%;
+    transition: 0.2s;
+}
+
+.ittem{
+    position: relative;
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: 'poppins',sans-serif;
+    margin-left: 45px;
+}
+.ettem{
+    position: relative;
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: 'poppins',sans-serif;
+    margin-left: 45px;
+    
+}
+
+
+.coll{
+    display: flex;
+    list-style: none;
+    margin-left: 100%;
+    margin-top: 18px;
+}
+.font{
+    display: flex;
+    font-size: 24px;
+    margin-left: 90px;
+ 
+}
+.font i{
+    margin-left: 35px;
+}
+
+
+
+
+
+
+
+
+.yuza{
+    width: 100%;
+    height: 80vh;
+    background: url(./iii.webp)no-repeat center/cover;
+}
+
+.img{
+    width: 100%;
+    padding: 230px 260px;
+}
+
+.img img{
+    width: 500px;
+}
+.soz h2{
+    font-size: 28px;
+    margin-left: 100px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.594);
+}
+.bts{
+    width: 180px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+   margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book{
+    width: 100%;
+    height: 80vh;
+    background: url(./ipad.jpg)no-repeat center/cover;
+    margin-top: 15px;
+}
+.svg{
+    width: 35%;
+    margin-top: 200px;
+    margin-left: 58%;
+}
+.book_h2{
+    font-size: 28px;
+    font-weight: 300;
+    margin-left: 58%;
+    margin-top: 10px;
+}
+.butt{
+    width: 150px;
+    height: 43px;
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+    margin-left: 58%;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mi__card{
+    margin-top: 15px;
+    width: 100%;
+
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.minot{
+    width: 49%;
+    height: 60vh;
+
+    margin-left: 10px;
+    margin-top: 33px;
+    background: url(./mi\ te.jpg) no-repeat center/cover;
+}
+.minot__h1{
+    font-size: 40px;
+    font-weight: 200;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.minot__h3{
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 260px;
+    margin-top: 10px;
+}
+.minot__a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 300px;
+    color: #ff663c;
+}
+.minot i{
+    margin-top: 30px;
+    color: #ff663c;
+}
+.mitv{
+    width: 49%;
+    height: 60vh;
+
+    margin-left: 10px;
+    margin-top: 33px;
+    background: url(./mi\ tiv.png)no-repeat center/cover;
+}
+.mitv img{
+    width: 350px;
+    margin-left: 195px;
+    margin-top: 60px;
+}
+.mitv__h3{
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.mitv__a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 300px;
+    color: #ff663c;
+}
+.mitv i{
+    margin-top: 30px;
+    color: #ff663c;
+}
+.mismart{
+    width: 49%;
+    height: 60vh;
+
+    margin-left: 10px;
+    margin-top: 33px;
+    background: url(./soa.jpg) no-repeat center /cover;
+}
+.mismart__h1{
+    font-size: 40px;
+    font-weight: 200;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+.mismart__h3{
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 280px;
+    margin-top: 10px;
+}
+.mismart__a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 300px;
+    color: #ff663c;
+}
+.mismart i{
+    margin-top: 30px;
+    color: #ff663c;
+}
+
+.mipad{
+    width: 49%;
+    height: 60vh;
+
+    margin-left: 10px;
+    margin-top: 33px;
+    background: url(./padlar.jpg) no-repeat center/cover;
+}
+.mipad__h1{
+    font-size: 40px;
+    font-weight: 200;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.mipad__h3{
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 285px;
+    margin-top: 10px;
+}
+.mipad__a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 325px;
+    color: #ff663c;
+}
+.mipad i{
+    margin-top: 30px;
+    color: #ff663c;
+}
+.mibuds{
+    width: 49%;
+    height: 63vh;
+
+    margin-left: 10px;
+    margin-top: 40px;
+    background: url(./blu.jpg)no-repeat center/cover;
+}
+.mibuds__h1{
+    font-size: 40px;
+    font-weight: 200;
+    margin-left: 230px;
+    margin-top: 50px;
+    color: #ddd;
+}
+.mibuds__h3{
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 250px;
+    margin-top: 10px;
+    color: #ddd;
+}
+.mibuds__a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 325px;
+    color: #ff663c;
+}
+.mibuds i{
+    margin-top: 30px;
+    color: #ff663c;
+}
+
+
+
+
+
+
+
+
+.carousel {
+    margin-top: 40px;
+    width: 49%;
+    height: 70vh;
+    position: relative;
+    margin-left: 10px;
+
+}
+.carousel > ul{
+    margin: 0;
+    padding: 0;
+    list-style:  none;
+}
+.slide{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+}
+.slide[data-active]{
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+}
+.slide > img{
+    display: block;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.carousel-button{
+    color: rgb(255,255,255,.5);
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: .25rem;
+    padding: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}.carousel-button:hover,
+.carousel-button:focus{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.carousel-button:focus{
+    outline: 1px solid black;
+}
+.carousel-button.prev{
+    left: 1rem;
+}
+.carousel-button.next{
+    right: 1rem;
+}
+
+
+
+
+
+
+
+
+.life,
+.smart,
+.phone{
+    width: 100%;
+    height: 0px;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    background: rgb(221, 221, 221);
+    transition: .3s;
+    overflow: hidden;   
+   
+}
+.phone h2{
+    display: flex;
+    margin: 5% 43%;
+    font-weight: 500;
+
+}
+.phone h2 span{
+    font-size: 30px;
+    margin: -8px 0;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.phone:hover h2 span{
+    color: #ff663c;
+}
+.phone:hover h2{
+    color: #ff663c;
+}
+.phone hr{
+    margin:  6px 60px;
+    background: #ff663c;
+    height: 16px;
+    width: 3px;
+}
+.smart i{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 50px 150px;
+    color: rgba(0, 0, 0, 0.562);
+}
+.smart h3{
+    margin: -10px 125px;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.703);
+}
+.smart{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.life i{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 50px 150px;
+    color: rgba(0, 0, 0, 0.562);
+}
+.life h3{
+    margin: -10px 125px;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.703);
+}
+.life{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon:hover h3{
+    color: #ff663c;
+}
+
+
+.icon1{
+    margin: 0 -140px;
+}
+.icon1:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon1:hover h3{
+    color: #ff663c;
+}
+.icon2 h3{
+    margin: -13px 100px;
+}
+.icon2{
+     margin: 3px 50px;
+}
+.icon2:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon2:hover h3{
+    color: #ff663c;
+}
+.icon3{
+    margin: 0 -170px;
+}
+.icon3:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon3:hover h3{
+    color: #ff663c;
+}
+.icon4{
+    margin: 0 30px;
+}
+.icon4:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon4:hover h3{
+    color: #ff663c;
+}
+.icon5{
+    width: 15%;
+    margin: 0 -120px;
+}
+.icon5 h3{
+    width: 100%;
+}
+.icon5:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon5:hover h3{
+    color: #ff663c;
+}
+
+.samar{
+    display: flex;
+}
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.913);
+
+   
+}
+.foot{
+    display: flex;
+}
+.shop h3{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.shop h4{
+    color: #ddd6;
+    font-weight: 100;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.support h3{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.support h4{
+    color: #ddd6;
+    font-weight: 100;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.contact h3{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.contact h4{
+    color: #ddd6;
+    font-weight: 100;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.about h3{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.about h4{
+    color: #ddd6;
+    font-weight: 100;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.follow{
+    margin-left: 170px;
+    margin-top: 58px;
+    font-size: 18px;
+}
+.follow h3{
+    color: #fff;
+}
+.follow__i{
+    color: #ddd;
+    font-size: 25px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.follow i{
+    margin-left: 20px;
+}
+.follow h4{
+    font-size: 18px;
+    color: #fff;
+
+    margin-top: 30px;
+}
+.follow input{
+    width: 400px;
+    height: 55px;
+    border-radius: 15px;
+    border:  1px solid #fff;
+    background: rgba(0, 0, 0, 0.913);
+    color: #fff;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.hr{
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.pastiki{
+    display: flex;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.right{
+    margin-left: 60px;
+}
+.glob{
+    margin-left: 38%;
+}
+.pastiki i{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px) {
+    .nav{
+        width: 100%;
+    }
+    .collection{
+        display: none;
+    }
+    .img img{
+        width: 200px;
+        margin: auto;
+    }
+    .ittem{
+        /* display: none; */
+        margin-left: -100px;
+        font-size: 10px;
+        margin-top: 10p;
+    }
+    .ettem{
+        /* display: none; */
+        font-size: 10px;
+    }
+    .img{
+        margin: 0 -250px;
+    }
+    .font {
+        margin: auto;
+        margin-left: -40px;
+    }
+
+    .soz_h2{
+        font-size: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .bts{
+        width: 120px;
+        height: 30px;
+    }
+    .book{
+        width: 100%;
+    }
+    .svg{
+        width: 250px;
+        margin: auto;
+        margin-top: 180px;
+        margin-left: 80px;
+    }
+    .book_h2{
+        margin: auto;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .butt{
+        margin: auto;
+        width: 100px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+
+    .minot{
+        width: 100%;
+        margin-left: -1px;
+    }
+    .minot__h1{
+        margin: auto;
+        font-size: 27px;
+        margin-left: 45px;
+        margin-top: 100px;
+    }
+    .minot__h3{
+        margin: auto;
+        font-size: 18px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .minot__a{
+        margin: auto;
+        margin-left: 125px;
+    }
+    .mitv{
+        width: 100%;
+        margin-left: -1px;
+    }
+    .mitv img{
+        margin: auto;
+       width: 250px;
+       margin-left: 60px;
+       margin-top: 100px;
+    }
+    .mitv__h3{
+        margin: auto;
+        font-size: 18px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    .mitv__a{
+        margin: auto;
+        margin-left: 125px;
+    }
+    .mismart{
+        width: 100%;
+        margin-left: -1px;
+    }
+    .mismart__h1{
+        margin: auto;
+        font-size: 27px;
+        margin-left: 70px;
+        margin-top: 100px;
+    }
+    .mismart__h3{
+        margin: auto;
+        font-size: 18px;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+    .mismart__a{
+        margin: auto;
+        margin-left: 135px;
+    }
+    .mipad{
+        width: 100%;
+        margin-left: -1px;
+    }
+    .mipad__h1{
+        margin: auto;
+        font-size: 27px;
+        margin-left: 120px;
+        margin-top: 100px;
+    }
+    .mipad__h3{
+        margin: auto;
+        font-size: 18px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .mipad__a{
+        margin: auto;
+        margin-left: 130px;
+    }
+    .mibuds{
+        width: 100%;
+        margin-left: -1px;
+    }
+    .mibuds__h1{
+        margin: auto;
+        font-size: 27px;
+        margin-left: 90px;
+        margin-top: 100px;
+    }
+    .mibuds__h3{
+        margin: auto;
+        font-size: 18px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    .mi__card{
+        width: 100%;
+    }
+
+    .carousel{
+        width: 100%;
+       margin-left: -1px;
+    }
+    .mibuds{
+        width: 100%;
+    }
+
+    .foot{
+        
+    }
+    .shop{
+        display: none;
+    }
+    .support{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+    .follow{
+        margin: auto;
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+    .follow input{
+        font-size: 10px;
+        width: 180px;
+        height: 30px;
+
+    }
+    .hr{
+        margin: auto;
+        width: 70%;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .footer{
+        height: 50vh;
+    }
+    .pastiki{
+        margin: auto;
+        font-size: 8px;
+    }
+    .right{
+        margin: auto;
+        margin-top: -20px;
+        margin-left: -370px;
+        width: 100%;
+    }
+    .glob{
+        margin: auto;
+        margin-top: -20px;
+
+    }
+    .pastiki i{
+        font-size: 15px;
+        margin: auto;
+        margin-top: -25px;
+    }
+    .copy{
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+    .follow h3{
+        margin-left: 20px;
+    }
+    .follow h4{
+        margin-left: 17px;
+    }
+
+}
+ 
+@media (min-width:768px)   and   (max-width:1023px){
+    .nav{
+        width: 50%;
+    }
+    .item{
+        font-size: 8px;
+    }
+    .ittem{
+        font-size: 8px;
+        margin: 0 -10%;
+    }
+    .collection  {
+        font-size: 8px;
+       margin: 18px -10%;
+       letter-spacing: none;
+    }
+    .ettem{
+        font-size: 8px;
+    }
+    .coll{
+        margin: 18px 0;
+    }
+    .font{
+        font-size: 14px;
+        margin: 0 -35px;
+    }
+ 
+    .img_logo_png{
+        width: 300px;
+        margin: 30px -120px;
+    }
+    .bts{
+        margin: 20px 40px;
+    }
+    .soz_h2{
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .book{
+        width: 100%;
+        
+    }
+    .svg{
+        width: 60%;
+        margin: auto;
+        margin-top: 200px;
+        margin-left: 180px;
+    }
+    .book_h2{
+        margin: auto;
+        margin-left: 230px;
+        margin-top: 20px;
+    }
+    .butt{
+        margin: auto;
+        margin-left: 310px;
+        margin-top: 20px;
+    }
+
+    .minot{
+        width: 48%;
+    }
+    .minot__h1{
+        margin: auto;
+        font-size: 30px;
+        margin-left: 22px;
+        margin-top: 100px;
+    }
+    .minot__h3{
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 83px;
+    }
+    .minot__a{
+        margin: auto;
+        margin-left: 120px;
+    }
+    .mitv{
+        width: 48%;
+    }
+    .mitv img{
+        width: 250px;
+        margin: auto;
+        margin-top: 110px;
+        margin-left: 60px;
+
+    }
+    .mitv__h3{
+        margin: auto;
+        margin-left: 64px;
+        margin-top: 20px;
+    }
+    .mitv__a{
+        margin: auto;
+        margin-left: 125px;
+    }
+    .mismart{
+        width: 48%;
+    }
+    .mismart__h1{
+        margin: auto;
+        font-size: 30px;
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+    .mismart__h3{
+        margin: auto;
+        font-size: 18px;
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+    .mismart__a{
+        margin: auto ;
+        margin-left: 130px;
+    }
+    .mipad{
+        width: 48%;
+    }
+    .mipad__h1{
+        margin: auto;
+        font-size: 30px;
+        margin-left: 110px;
+        margin-top: 100px;
+    }
+    .mipad__h3{
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 90px;
+    }
+    .mipad__a{
+        margin: auto;
+        margin-left: 130px;
+    }
+    .carousel{
+        width: 48%;
+    }
+    .mibuds{
+        width: 48%;
+    }
+    .mibuds__h1{
+        margin: auto;
+        font-size: 30px;
+        margin-top: 120px;
+        margin-left: 60px;
+    }
+    .mibuds__h3{
+        margin: auto;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .footer{
+        width: 100%;
+        height: 100vh;
+    }
+    .foot{
+        width: 100%;
+    }
+    .shop h3{
+        font-size: 8px;
+        width: 100%;
+        margin: auto;
+        margin-left: 44px;
+        margin-top: 60px;
+    }
+    .shop h4{
+        margin: auto;
+        font-size: 7px;
+        width: 100%;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+    .support h3{
+        font-size: 8px;
+        
+    }
+    .support h4{
+        font-size: 7px;
+    }
+    .contact h3{
+        font-size: 8px;
+        width: 100%;
+    }
+    .contact h4{
+        font-size: 7px;
+        width: 100%;
+    }
+    .about h3 {
+        font-size: 10px;
+    }
+    .follow h3{
+        font-size: 10px;
+    }
+    .follow h4{
+        font-size: 10px;
+    }
+    .about h3{
+        font-size: 8px;
+        width: 100%;
+    }
+    .about h4{
+        font-size: 7px;
+        width: 100%;
+    }
+    .follow h3{
+        font-size: 8px;
+    }
+    .follow h4{
+        font-size: 7px;
+    }
+    .follow__i{
+        font-size: 10px;
+    }
+    .follow input{
+        width: 150px;
+        height: 30px;
+        font-size: 8px;
+    }
+    .hr{
+        margin: auto;
+        margin-top: 200px;
+    }
+    .copy{
+        font-size: 8px;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: -100px;
+    }
+    .right{
+        font-size: 8px;
+        width: 100%;
+        margin: auto;
+     
+        margin-top: 10px;
+
+    }
+    .glob{
+        font-size: 8px;
+
+        margin: auto;
+    }
+    .pastiki i{
+        font-size: 15px;
+    }
+
+
+}
+
+@media (min-width:1024px) {
+    .nav{
+       width: 25%; 
+    }
+    .yuza{
+        width: 100%;
+    }
+    .coll{
+        margin: 18px 10%;
+    }
+    .item{
+        font-size: 15px;
+    }
+    .coll li{
+        font-size: 15px;
+    }
+    .font{
+        font-size: 15px;
+        margin: 0 -40px;
+    }
+    .img h2{
+        margin: 10px 0;
+    }
+
+
+    .minot{
+        width: 48%;
+    }
+    .minot__h1{
+        margin: auto;
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+    .minot__h3{
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 140px;
+    }
+    .minot__a{
+        margin: auto;
+        margin-left: 180px;
+    }
+    .mitv img{
+        margin: auto;
+        margin-left: 75px;
+        margin-top: 100px;
+    }
+    .mitv__h3{
+        margin: auto;
+        margin-left: 130px;
+        margin-top: 20px;
+    }
+    .mitv__a{
+        margin: auto;
+        margin-left: 200px;
+    }
+    .mismart__h1{
+        margin: auto;
+        margin-left: 65px;
+        margin-top: 100px;
+    }
+    .mismart__h3{
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 160px;
+    }
+    .mismart__a{
+        margin: auto;
+        margin-left: 190px;
+    }
+    .mipad{
+        width: 48%;
+    }
+    .mipad__h1{
+        margin: auto;
+        margin-top: 100px;
+        margin-left: 145px;
+    }
+    .mipad__h3{
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+    .mipad__a{
+        margin: auto;
+        margin-left: 200px;
+    }
+    .carousel{
+        width: 49%;
+    }
+    .mibuds{
+        width: 48%;
+    }
+    .mibuds__h1{
+        margin: auto;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    .mibuds__h3{
+        margin: auto;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+
+    .foot{
+        width: 100%;
+    }
+    .shop h3{
+        font-size: 15px;
+        width: 100%;
+    }
+    .shop h4{
+        font-size: 10px;
+        width: 100%;
+    }
+    .support h3{
+        font-size: 15px;
+    }
+    .support h4{
+        font-size: 10px;
+        width: 100%;
+    }
+    .contact{
+        margin-left: 50px;
+    }
+    .contact h3{
+        font-size: 15px;
+        width: 100%;
+    }
+    .contact h4{
+        font-size: 10px;
+    }
+    .about h3{
+        font-size: 15px;
+        width: 100%;
+    }
+    .about h4{
+        font-size: 10px;
+        width: 100%;
+    }
+    .follow{
+        margin: auto;
+        margin-top: 55px;
+    }
+    .follow input{
+        width: 170px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .hr{
+        margin: auto;
+        margin-top: 150px;
+    }
+
+    .copy{
+        margin: auto;
+        width: 100%;
+        font-size: 16px;
+        margin-left: -50px;
+    }
+    .glob{
+        margin: auto;
+        margin-left: -80px;
+    }
+    .right{
+        width: 100%;
+        margin: auto;
+        margin-left: 20px;
+    }
+    
+
+}

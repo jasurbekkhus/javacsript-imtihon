@@ -1,0 +1,1757 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 55px;
+    position: relative;
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: #fff;
+}
+.mi img{
+    width: 58px;
+    height: 55px;
+    margin: 0 30px;
+}
+.collection{
+    display: flex;
+    list-style: none;
+    margin: 18px -38px;
+}
+.item{
+    position: relative;
+    margin-left: 45px;
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.collection li h3{
+    font-size: 15px;
+    color: black;
+    font-weight: 200;
+    width: 100%;
+}
+.item:after{
+    content: "";
+    position: absolute;
+    background-color: #ff663c;
+    width: 0;
+    height: 3px;
+    left: 0;
+    top: 20px;
+    bottom: 0 -10px;
+}
+
+.item:hover:after{
+    width: 100%;
+    transition: 0.2s;
+}
+
+
+
+.ittem:after{
+    content: "";
+    position: absolute;
+    background-color: #ff663c;
+    width: 0;
+    height: 3px;
+    left: 0;
+    top: 20px;
+    bottom: 0 -10px;
+}
+.ittem:hover:after{
+    width: 100%;
+    transition: 0.2s;
+}
+
+.ettem:after{
+    content: "";
+    position: absolute;
+    background-color: #ff663c;
+    width: 0;
+    height: 3px;
+    left: 0;
+    top: 20px;
+    bottom: 0 -10px;
+}
+.ettem:hover:after{
+    width: 100%;
+    transition: 0.2s;
+}
+
+.ittem{
+    position: relative;
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: 'poppins',sans-serif;
+    margin-left: 45px;
+}
+.ettem{
+    position: relative;
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: 'poppins',sans-serif;
+    margin-left: 45px;
+    
+}
+.coll{
+    display: flex;
+    list-style: none;
+    margin: 18px 45%;
+}
+.font{
+    display: flex;
+    font-size: 24px;
+    margin: 10px -43%;
+}
+.font i{
+    margin-left: 35px;
+}
+.glass{
+    font-size: 24px;
+
+}
+
+
+
+.life,
+.smart,
+.phone{
+    width: 100%;
+    height: 0px;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    background: rgb(221, 221, 221);
+    transition: .3s;
+    overflow: hidden;   
+   
+}
+.phone h2{
+    display: flex;
+    margin: 5% 43%;
+    font-weight: 500;
+
+}
+.phone h2 span{
+    font-size: 30px;
+    margin: -8px 0;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.phone:hover h2 span{
+    color: #ff663c;
+}
+.phone:hover h2{
+    color: #ff663c;
+}
+.phone hr{
+    margin:  6px 60px;
+    background: #ff663c;
+    height: 16px;
+    width: 3px;
+}
+.smart i{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 50px 150px;
+    color: rgba(0, 0, 0, 0.562);
+}
+.smart h3{
+    margin: -10px 125px;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.703);
+}
+.smart{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.life i{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 50px 150px;
+    color: rgba(0, 0, 0, 0.562);
+}
+.life h3{
+    margin: -10px 125px;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.703);
+}
+.life{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon:hover h3{
+    color: #ff663c;
+}
+
+
+.icon1{
+    margin: 0 -140px;
+}
+.icon1:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon1:hover h3{
+    color: #ff663c;
+}
+.icon2 h3{
+    margin: -13px 100px;
+}
+.icon2{
+     margin: 3px 50px;
+}
+.icon2:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon2:hover h3{
+    color: #ff663c;
+}
+.icon3{
+    margin: 0 -170px;
+}
+.icon3:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon3:hover h3{
+    color: #ff663c;
+}
+.icon4{
+    margin: 0 30px;
+}
+.icon4:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon4:hover h3{
+    color: #ff663c;
+}
+.icon5{
+    width: 15%;
+    margin: 0 -120px;
+}
+.icon5 h3{
+    width: 100%;
+}
+.icon5:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon5:hover h3{
+    color: #ff663c;
+}
+
+
+
+
+
+.xiomisupport{
+    width: 100%;
+    height: 65vh;
+
+
+}
+
+.xiomisupport h2{
+    margin-left: 43%;
+    margin-top: 100px;
+}
+.xiomisupport input{
+    width: 40%;
+    height: 55px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.174);
+    font-size: 25px;
+    margin-left: 28%;
+    margin-top: 80px;
+}
+.xiom{
+    margin-left: 30%;
+    margin-top: 30px;
+    color: rgba(123, 115, 115, 0.231);
+}
+
+
+
+
+
+
+
+
+.habar{
+    display: flex;
+    margin-left: 10%;
+}
+.habar i{
+    font-size: 30px;
+}
+.fa{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.fa i{
+    margin-left: 60px;
+}
+.fa1{
+    margin-left: 170px;
+    margin-top: 38px;
+}
+.fa1 i{
+    margin-left: 60px;
+}
+.fa2 i{
+    margin-left: 50px;
+        margin-top: 35px;
+}
+.fa2{
+    margin-left: 200px;
+}
+.fa3{
+    margin-left: 200px;margin-top: 33px;
+}
+.fa3 i{
+    margin-left: 30px;
+}
+
+
+
+
+
+
+.phoney{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.repair{
+    display: flex;
+    width: 45%;
+    height: 30vh;
+    margin-left: 50px;
+    margin-top: 20px;
+    background: url(./push.png)no-repeat center/cover;
+}
+.repair > h3{
+    color: #fff;
+    font-size: 25px;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.repair > img{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.multipley{
+    display: flex;
+    width: 45%;
+    height: 30vh;
+    margin-left: 50px;
+    margin-top: 20px;
+    background: url(./mi\ bal.png)no-repeat center/cover;
+}
+.multipley > h3{
+    width: 50%;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.multipley > img{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.servise{
+    display: flex;
+    width: 90%;
+    height: 30vh;
+
+    margin-left: 75px;
+    margin-top: 20px;
+    background: #fff;
+}
+body{
+    background: rgba(221, 221, 221, 0.338);
+}
+
+.emjoy > button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(23, 196, 23);
+    background: rgba(47, 255, 78, 0.068);
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.emjoy > h1{
+    font-weight: 600;
+    margin-left: 100px;
+    font-size: 27px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.emjoy > h3{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.432);
+    font-weight: 200;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.servise1{
+
+    width: 40%;
+    height: 25vh;
+
+    margin-left: 40px;
+    margin-top: 16px;
+    background: url(./inte.png)no-repeat center/cover;
+}
+.servise2{
+    display: flex;
+    width: 90%;
+    height: 30vh;
+    background-color: #fff;
+    margin-left: 75px;
+    margin-top: 20px;
+    
+}
+.servise3{
+    display: flex;
+    width: 40%;
+    height: 25vh;
+
+    margin-left: 40px;
+    margin-top: 20px;
+    background: url(./lar.png)no-repeat center/cover;
+}
+.servise4{
+    display: flex;
+    width: 90%;
+    height: 30vh;
+   background: #fff;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+.servise5{
+    width: 40%;
+    height: 25vh;
+
+    margin-left: 40px;
+    margin-top: 20px;
+    background: url(./man.png)no-repeat center/cover;
+}
+.war button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(23, 196, 23);
+    background: rgba(47, 255, 78, 0.068);
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.war h1{
+    font-weight: 600;
+    margin-left: 100px;
+    font-size: 27px;
+    width: 100%;
+    margin-top: 15px;
+}
+.war h3{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.432);
+    font-weight: 200;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.ser button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(23, 196, 23);
+    background: rgba(47, 255, 78, 0.068);
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.ser h1{
+    font-weight: 600;
+    margin-left: 100px;
+    font-size: 27px;
+    width: 100%;
+    margin-top: 15px;
+}
+.ser h3{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.432);
+    font-weight: 200;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mel{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.scoter{
+    width: 22%;
+    height: 35vh;
+    margin-left: 75px;
+    margin-top: 40px;
+    background-color: #fff;
+}
+.scoter img{
+    width: 100px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.scoter:hover{
+    box-shadow: 1px 5px 2px 10px rgba(0, 0, 0, 0.057);
+}
+.hi{
+    display: flex;
+}
+.scoter h3{
+    font-size: 23px;
+    margin-left: 43px;
+    margin-top: 40px;
+}
+.scoter i{
+    font-size: 15px;
+    margin-top: 47px;
+    margin-left: 10px;
+}
+.scoter h4{
+    font-size: 18px;
+    margin-left: 65px;
+    margin-top: 20px;
+    color: rgb(100, 97, 97);
+    font-weight: 100;
+}
+.scoter h4 span{
+    margin-left: 45px;
+
+}
+.rf{
+    background-color: #fff;
+    width: 22%;
+    height: 35vh;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.rf h3{
+    font-size: 23px;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.rf i{
+    margin-top: 47px;
+    margin-left: 10px;
+}
+.rf h4{
+    font-size: 18px;
+    margin-left: 65px;
+    margin-top: 20px;
+    color: rgb(100, 97, 97);
+    font-weight: 100;
+}
+.rf h4 span{
+    margin-left: 80px;
+}
+.rf img{
+    width: 100px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.find{
+    width: 22%;
+    height: 35vh;
+    margin-left: 10px;
+    margin-top: 40px;
+    background-color: #fff;
+}
+.find h3{
+    font-size: 23px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.find i{
+    margin-top: 45px;
+    margin-left: 10px;
+}
+.find h4{
+    font-size: 18px;
+    margin-left: 65px;
+    margin-top: 20px;
+    color: rgb(100, 97, 97);
+    font-weight: 100;
+}
+.find img{
+    width: 100px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.check{
+        width: 22%;
+        height: 35vh;
+        margin-left: 10px;
+        margin-top: 40px;
+        background-color: #fff;
+}
+.check h3{
+    font-size: 23px;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.check i{
+    margin-top: 45px;
+    margin-left: 10px;
+}
+.check h4{
+    font-size: 18px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(100, 97, 97);
+    font-weight: 100;
+}
+.check h4 span{
+    margin-left: -34px;
+}
+.check img{
+    width: 100px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+.hol{
+    width: 100%;
+    height: 70vh;
+
+
+}
+
+.high{
+    background: #fff;
+    width: 90%;
+    margin-left: 78px;
+    margin-top: 35px;
+}
+.high h1{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.high h3{
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.607);
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact__us{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sms{
+    display: flex;
+    width: 90%;
+    height: 35vh;
+
+    margin-left: 80px;
+    background: #fff;
+}
+.sms h1{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.sms i{
+    margin-top: 113px;
+    margin-left: 10px;
+}
+.sms img{
+    margin-left: 50%;
+    margin-top: 40px;
+}
+
+.terms{
+    width: 44%;
+    height: 35vh;
+
+    margin-top: 30px;
+    margin-left: 80px;
+    display: flex;
+    background-color: #fff;
+}
+.aboutmi{
+    background-color: #fff;
+    width: 44%;
+    height: 35vh;
+
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+}
+.terms h1{
+    margin-left: 90px;
+    margin-top: 120px;
+}
+.terms i{
+    margin-top: 133px;
+    margin-left: 10px;
+}
+.terms img{
+    width: 150px;
+    height: 150px;
+    margin-left: 20%;
+    margin-top: 60px;
+}
+.aboutmi h1{
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.aboutmi i{
+    margin-top: 133px;
+    margin-left: 10px;
+}
+.aboutmi img{
+    width: 150px;
+    height: 150px;
+    margin-left: 20%;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+.brends{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid dodgerblue;
+}
+.twitter{
+    width: 33.3%;
+    height: 30vh;
+    border: 1px solid #ff663c;
+}
+.twitter h3{
+    font-weight: 200;
+    margin-top: 0px ;
+    margin-left: 150px;
+}
+.twitter i{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.youtube{
+    width: 33.3%;
+    height: 30vh;
+    border: 1px solid #ff663c;
+}
+.youtube h3{
+    font-weight: 200;
+    margin-top: 0px ;
+    margin-left: 150px;
+}
+.youtube i{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.facebook{
+    width: 33.3%;
+    height: 30vh;
+    border: 1px solid #ff663c;
+}
+.facebook h3{
+    font-weight: 200;
+    margin-top: 0px ;
+    margin-left: 150px;
+}
+.facebook i{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.913);
+
+   
+}
+.foot{
+    display: flex;
+}
+.shop h3{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.shop h4{
+    color: #ddd6;
+    font-weight: 100;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.support h3{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.support h4{
+    color: #ddd6;
+    font-weight: 100;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.contact h3{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.contact h4{
+    color: #ddd6;
+    font-weight: 100;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.about h3{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.about h4{
+    color: #ddd6;
+    font-weight: 100;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.follow{
+    margin-left: 170px;
+    margin-top: 58px;
+    font-size: 18px;
+}
+.follow h3{
+    color: #fff;
+}
+.follow__i{
+    color: #ddd;
+    font-size: 25px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.follow i{
+    margin-left: 20px;
+}
+.follow h4{
+    font-size: 18px;
+    color: #fff;
+
+    margin-top: 30px;
+}
+.follow input{
+    width: 400px;
+    height: 55px;
+    border-radius: 15px;
+    border:  1px solid #fff;
+    background: rgba(0, 0, 0, 0.913);
+    color: #fff;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.hr{
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.pastiki{
+    display: flex;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.right{
+    margin-left: 60px;
+}
+.glob{
+    margin-left: 38%;
+}
+.pastiki i{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+@media (max-width:767px){
+    .nav{
+        width: 100%;
+    }
+    .follow{
+        margin: auto;
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+    .shop{
+        display: none;
+    }
+    .support{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+    .follow input{
+        font-size: 10px;
+        width: 180px;
+        height: 30px;
+
+    }
+    .hr{
+        margin: auto;
+        width: 70%;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .footer{
+        height: 50vh;
+    }
+    .pastiki{
+        margin: auto;
+        font-size: 8px;
+    }
+    .right{
+        margin: auto;
+        margin-top: -20px;
+        margin-left: -370px;
+        width: 100%;
+    }
+    .glob{
+        margin: auto;
+        margin-top: -20px;
+
+    }
+    .pastiki i{
+        font-size: 15px;
+        margin: auto;
+        margin-top: -25px;
+    }
+    .copy{
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+    .follow h3{
+        margin-left: 20px;
+    }
+    .follow h4{
+        margin-left: 17px;
+    }
+    .collection{
+        display: none;
+    }
+    .img img{
+        width: 200px;
+        margin: auto;
+    }
+    .ittem{
+        /* display: none; */
+        margin-left: -150px;
+        font-size: 10px;
+        margin-top: 10p;
+    }
+    .ettem{
+        /* display: none; */
+        font-size: 10px;
+    }
+    .img{
+        margin: 0 -250px;
+    }
+    .font {
+        margin: auto;
+        margin-left: -55%;
+    }
+    .xiomisupport h2{
+        margin: auto;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .xiomisupport input{
+        margin: auto;
+        width: 300px;
+        height: 40px;
+        font-size: 15px;
+        margin-left: 45px;
+        margin-top: 80px;
+    }
+    .habar{
+        width: 100%;
+        margin: auto;
+    }
+    .xiom{
+        margin: auto;
+        font-size: 12px;
+        width: 100%;
+        margin-left: 15px;
+        color: rgba(0, 0, 0, 0.664);
+        margin-top: 40px;
+    }
+    .fa{
+        margin: auto;
+        margin-top: 100px;
+    }
+    .fa i{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    .fa h3{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .fa1{
+        margin: auto;
+        margin-top: 100px;
+    }
+    .fa1 i{
+        font-size: 20px;
+        margin-left: 45px;
+    }
+    .fa1 h3{
+        width: 100%;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .fa2{
+        margin: auto;
+        margin-top: 65px;
+    }
+    .fa2 i{
+        font-size: 20px;
+        margin-left: 45px;
+    }
+    .fa2 h3{
+     width: 100%;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .fa3{
+        margin: auto;
+        margin-top: 100px;
+    }
+    .fa3 i{
+        font-size: 20px;
+        margin-left: 45px;
+    }
+    .fa3 h3{
+
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .repair{
+        margin: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+    .repair h3{
+        margin: auto;
+    }
+    .repair img{
+        margin: auto;
+        
+    }
+    .multipley{
+        width: 100%;
+        margin-left: 0;
+    }
+    .multipley h3{
+        margin: auto;
+    }
+    .multipley img{
+        margin: auto;
+    }
+    .servise{
+        margin: auto;
+        width: 100%;
+    }
+    .emjoy button{
+        margin: auto;
+    }
+    .emjoy h1{
+        
+        margin: auto;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .emjoy h3{
+        margin: auto;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .servise1{
+        width: 100%;
+        margin: auto;
+    }
+
+    .servise2{
+        margin: auto;
+        width: 100%;
+    }
+    .war button{
+        margin: auto;
+    }
+    .war h1{
+        
+        margin: auto;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .war h3{
+        margin: auto;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .servise3{
+        width: 100%;
+        margin: auto;
+    }
+    .servise4{
+        margin: auto;
+        width: 100%;
+    }
+    .ser button{
+        margin: auto;
+    }
+    .ser h1{
+        
+        margin: auto;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .ser h3{
+        margin: auto;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .servise5{
+        width: 100%;
+        margin: auto;
+    }
+    .scoter{
+        width: 100%;
+        margin: auto;
+    }
+    .rf{
+        width: 100%;
+        margin-left: 0;
+    }
+    .find{
+        width: 100%;
+        margin-left: 0;
+    }
+    .check{
+        width: 100%;
+        margin-left: 0;
+    }
+    .check h4 span{
+        margin-left: 0;
+    }
+    .high{
+        width: 100%;
+        margin-left: 0;
+    }
+    .high h1{
+        margin-left: 0;
+    }
+    .high h3{
+        margin-left: 0;
+        font-size: 15px;
+    }
+
+    .sms{
+        width: 100%;
+        margin-left: 0;
+    }
+    .sms h1{
+
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .sms img{
+        width: 100px;
+        height: 100px;
+        margin-top: 75px;
+        margin-left: 0;
+    }
+    .sms i{
+        margin: auto;
+    }
+    .terms{
+        width: 100%;
+        margin-left: 0;
+    }
+    .terms h1{
+        margin-top: 100px;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .terms img{
+        width: 100px;
+        height: 100px;
+        margin-top: 60px;
+        margin-left: 0;
+    }
+    .terms i{
+        margin: auto;
+        margin-top: 100px;
+    }
+    .aboutmi{
+        width: 100%;
+        margin-left: 0;
+    }
+    .aboutmi h1{
+        margin-top: 100px;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .aboutmi img{
+        width: 100px;
+        height: 100px;
+        margin-top: 60px;
+        margin-left: 0;
+    }
+    .aboutmi i{
+        margin: auto;
+        margin-top: 100px;
+    }
+    .brends{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:1023px){
+    .nav{
+        width: 50%;
+    }
+    .footer{
+        width: 100%;
+        height: 100vh;
+    }
+    .foot{
+        width: 100%;
+    }
+    .shop h3{
+        font-size: 8px;
+        width: 100%;
+        margin: auto;
+        margin-left: 44px;
+        margin-top: 60px;
+    }
+    .shop h4{
+        margin: auto;
+        font-size: 7px;
+        width: 100%;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+    .support h3{
+        font-size: 8px;
+        
+    }
+    .support h4{
+        font-size: 7px;
+    }
+    .contact h3{
+        font-size: 8px;
+        width: 100%;
+    }
+    .contact h4{
+        font-size: 7px;
+        width: 100%;
+    }
+    .about h3 {
+        font-size: 10px;
+    }
+    .follow h3{
+        font-size: 10px;
+    }
+    .follow h4{
+        font-size: 10px;
+    }
+    .about h3{
+        font-size: 8px;
+        width: 100%;
+    }
+    .about h4{
+        font-size: 7px;
+        width: 100%;
+    }
+    .follow h3{
+        font-size: 8px;
+    }
+    .follow h4{
+        font-size: 7px;
+    }
+    .follow__i{
+        font-size: 10px;
+    }
+    .follow input{
+        width: 150px;
+        height: 30px;
+        font-size: 8px;
+    }
+    .hr{
+        margin: auto;
+        margin-top: 200px;
+    }
+    .copy{
+        font-size: 8px;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: -100px;
+    }
+    .right{
+        font-size: 8px;
+        width: 100%;
+        margin: auto;
+     
+        margin-top: 10px;
+
+    }
+    .glob{
+        font-size: 8px;
+
+        margin: auto;
+    }
+    .pastiki i{
+        font-size: 15px;
+    }
+    .item{
+        font-size: 8px;
+    }
+    .ittem{
+        font-size: 8px;
+        margin: 0 -10%;
+    }
+    .collection{
+        font-size: 8px;
+       margin: 18px -10%;
+       letter-spacing: none;
+    }
+    .ettem{
+        font-size: 8px;
+    }
+    .coll{
+        margin: 18px 0;
+    }
+
+    .font{
+        font-size: 14px;
+        margin-left: 50px;
+    }
+    .xiomisupport h2{
+        margin-left: 300px;
+     }
+     .xiomisupport input{
+        margin-left: 240px;
+     }
+     .xiom{
+        margin-left: 0;
+        margin-left: 110px;
+     }
+     .habar{
+        width: 100%;
+    
+     }
+     .fa{
+        margin-left: 0;
+        margin-top: 200px;
+     }
+     .fa i{
+        margin: auto;
+        margin-left: 30px;
+     }
+     .fa h3{
+        width: 100%;
+        margin-left: 0;
+        margin: auto;
+     }
+     .fa1{
+        margin-left: 30px;
+        margin-top: 200px;
+     }
+     .fa1 i{
+
+        margin: auto;
+        margin-left: 30px;
+     }
+     .fa1 h3{
+        width: 100%;
+
+        margin: auto;
+     }
+     
+     .fa2{
+        margin-left: 30px;
+        margin-top: 200px;
+     }
+     .fa2 i{
+
+        margin: auto;
+        margin-left: 30px;
+     }
+     .fa2 h3{
+        width: 100%;
+
+        margin: auto;
+     }
+     .fa3{
+        margin-left: 30px;
+        margin-top: 200px;
+     }
+     .fa3 i{
+
+        margin: auto;
+        margin-left: 30px;
+     }
+     .fa3 h3{
+        width: 100%;
+
+        margin: auto;
+     }
+
+     .repair{
+        width: 43%;
+        margin-left: 30px;
+     }
+     .multipley{
+        width: 43%;
+     }
+
+     .servise{
+        width: 100%;
+        margin-left: 0;
+     }
+     .servise1{
+        width: 100%;
+     }
+     .servise2{
+        width: 100%;
+        margin-left: 0;
+     }
+     .servise3{
+        width: 100%;
+     }
+
+     .servise4{
+        width: 100%;
+        margin-left: 0;
+     }
+     .servise5{
+        width: 100%;
+     }
+     .scoter{
+        width: 45%;
+        margin-left: 40px;
+     }
+
+     .rf{
+        width: 45%;
+
+     }
+     .find{
+        width: 45%;
+        margin-left: 44px;
+     }
+     .check{
+        width: 45%;
+     }
+     .high{
+        width: 100%;
+        margin-left: 0;
+
+     }
+     .high h1{
+        margin-top: 150px;
+     }
+
+     .sms{
+        width: 100%;
+        margin-left: 0;
+     }
+     .sms h1{
+        margin: auto;
+     }
+     .sms img{
+        margin: auto;
+        margin-top: 50px;
+     }
+     .sms i{
+        margin: auto;
+     }
+     .terms{
+        width: 46%;
+        margin-left: 15px;
+
+     }
+     .terms h1{
+        font-size: 15px;
+        margin: auto;
+     }
+     .terms i{
+        margin: auto;
+     }
+     .terms img{
+        margin: auto;
+     }
+     .aboutmi{
+        width: 46%;
+     }
+     .aboutmi h1{
+        font-size: 15px;
+        margin: auto;
+     }
+     .aboutmi i{
+        margin: auto;
+     }
+     .aboutmi img{
+        margin: auto;
+     }
+
+
+     .twitter h3{
+        margin-left: 50px;
+     }
+     .twitter i{
+       margin-left: 100px;
+     }
+     .youtube h3{
+        margin-left: 50px;
+     }
+     .youtube i{
+       margin-left: 100px;
+     }
+     .facebook h3{
+        margin-left: 50px;
+     }
+     .facebook i{
+       margin-left: 100px;
+     }
+}
+@media (min-width:1024px){
+    .nav{
+        width: 25%; 
+     }
+     .yuza{
+         width: 100%;
+     }
+     .coll{
+         margin: 18px 10%;
+     }
+     .item{
+         font-size: 15px;
+     }
+     .coll li{
+         font-size: 15px;
+     }
+     .font{
+         font-size: 15px;
+         margin-left: 0;
+         margin-top: 20px;
+     }
+     .foot{
+        width: 100%;
+    }
+    .shop h3{
+        font-size: 15px;
+        width: 100%;
+    }
+    .shop h4{
+        font-size: 10px;
+        width: 100%;
+    }
+    .support h3{
+        font-size: 15px;
+    }
+    .support h4{
+        font-size: 10px;
+        width: 100%;
+    }
+    .contact{
+        margin-left: 50px;
+    }
+    .contact h3{
+        font-size: 15px;
+        width: 100%;
+    }
+    .contact h4{
+        font-size: 10px;
+    }
+    .about h3{
+        font-size: 15px;
+        width: 100%;
+    }
+    .about h4{
+        font-size: 10px;
+        width: 100%;
+    }
+    .follow{
+        margin: auto;
+        margin-top: 55px;
+    }
+    .follow input{
+        width: 170px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .hr{
+        margin: auto;
+        margin-top: 150px;
+    }
+
+    .copy{
+        margin: auto;
+        width: 100%;
+        font-size: 16px;
+        margin-left: -50px;
+    }
+    .glob{
+        margin: auto;
+        margin-left: -80px;
+    }
+    .right{
+        width: 100%;
+        margin: auto;
+        margin-left: 20px;
+    }
+    .footer{
+        height: 100vh;
+    }
+
+
+}

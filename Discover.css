@@ -1,0 +1,1131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgba(221, 221, 221, 0.495);
+}
+nav{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    display: flex;
+}
+.mi img{
+    width: 58px;
+    height: 55px;
+    margin: 0 30px;
+}
+.collection{
+    display: flex;
+    list-style: none;
+    margin: 18px -38px;
+}
+.item{
+    position: relative;
+    margin-left: 45px;
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.collection li h3{
+    font-size: 15px;
+    color: black;
+    font-weight: 200;
+    width: 100%;
+}
+.item:after{
+    content: "";
+    position: absolute;
+    background-color: #ff663c;
+    width: 0;
+    height: 3px;
+    left: 0;
+    top: 20px;
+    bottom: 0 -10px;
+}
+
+.item:hover:after{
+    width: 100%;
+    transition: 0.2s;
+}
+
+
+
+.ittem:after{
+    content: "";
+    position: absolute;
+    background-color: #ff663c;
+    width: 0;
+    height: 3px;
+    left: 0;
+    top: 20px;
+    bottom: 0 -10px;
+}
+.ittem:hover:after{
+    width: 100%;
+    transition: 0.2s;
+}
+
+.ettem:after{
+    content: "";
+    position: absolute;
+    background-color: #ff663c;
+    width: 0;
+    height: 3px;
+    left: 0;
+    top: 20px;
+    bottom: 0 -10px;
+}
+.ettem:hover:after{
+    width: 100%;
+    transition: 0.2s;
+}
+
+.ittem{
+    position: relative;
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: 'poppins',sans-serif;
+    margin-left: 45px;
+}
+.ettem{
+    position: relative;
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: 'poppins',sans-serif;
+    margin-left: 45px;
+    
+}
+.coll{
+    display: flex;
+    list-style: none;
+    margin: 18px 45%;
+}
+.font{
+    display: flex;
+    font-size: 24px;
+    margin: 10px -43%;
+}
+.font i{
+    margin-left: 35px;
+}
+.glass{
+    font-size: 24px;
+
+}
+.life,
+.smart,
+.phone{
+    width: 100%;
+    height: 0px;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    background: rgb(221, 221, 221);
+    transition: .3s;
+    overflow: hidden;   
+   
+}
+.phone h2{
+    display: flex;
+    margin: 5% 43%;
+    font-weight: 500;
+
+}
+.phone h2 span{
+    font-size: 30px;
+    margin: -8px 0;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.phone:hover h2 span{
+    color: #ff663c;
+}
+.phone:hover h2{
+    color: #ff663c;
+}
+.phone hr{
+    margin:  6px 60px;
+    background: #ff663c;
+    height: 16px;
+    width: 3px;
+}
+.smart i{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 50px 150px;
+    color: rgba(0, 0, 0, 0.562);
+}
+.smart h3{
+    margin: -10px 125px;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.703);
+}
+.smart{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.life i{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 50px 150px;
+    color: rgba(0, 0, 0, 0.562);
+}
+.life h3{
+    margin: -10px 125px;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.703);
+}
+.life{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon:hover h3{
+    color: #ff663c;
+}
+
+
+.icon1{
+    margin: 0 -140px;
+}
+.icon1:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon1:hover h3{
+    color: #ff663c;
+}
+.icon2 h3{
+    margin: -13px 100px;
+}
+.icon2{
+     margin: 3px 50px;
+}
+.icon2:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon2:hover h3{
+    color: #ff663c;
+}
+.icon3{
+    margin: 0 -170px;
+}
+.icon3:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon3:hover h3{
+    color: #ff663c;
+}
+.icon4{
+    margin: 0 30px;
+}
+.icon4:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon4:hover h3{
+    color: #ff663c;
+}
+.icon5{
+    width: 15%;
+    margin: 0 -120px;
+}
+.icon5 h3{
+    width: 100%;
+}
+.icon5:hover i{
+    color: #ff663c;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.icon5:hover h3{
+    color: #ff663c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.articl{
+    width: 100%;
+    height: 20vh;
+
+}
+
+.h3{
+    color: #ff663c;
+}
+.sozlar{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 27%;
+}
+.sozlar h3{
+    font-size: 13px;
+    margin-left: 30px;
+}
+.sozlar hr{
+    margin-left: 30px;
+}
+
+.icon{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.icon i{
+    font-size: 20px;
+    color: rgb(168, 162, 162);
+}
+.bts{
+    width: 75px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    background: #ff663c;
+    color: #fff;
+    margin-left: 30px;
+}
+.left {
+    margin-left: 45%;
+}
+.icon input{
+    width: 300px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+.carousel {
+    margin-top: 40px;
+    width: 70%;
+    height: 70vh;
+
+    position: relative;
+    margin-left: 230px;
+
+}
+.carousel > ul{
+    margin: 0;
+    padding: 0;
+    list-style:  none;
+}
+.slide{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+}
+.slide[data-active]{
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+}
+.slide > img{
+    display: block;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.carousel-button{
+    color: rgb(255,255,255,.5);
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: .25rem;
+    padding: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}.carousel-button:hover,
+.carousel-button:focus{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.carousel-button:focus{
+    outline: 1px solid black;
+}
+.carousel-button.prev{
+    left: 1rem;
+}
+.carousel-button.next{
+    right: 1rem;
+}
+
+
+
+
+
+
+
+.phoenix{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.phoenix h3{
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.phoenix p{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.glouck{
+    width: 40%;
+    height: 60vh;
+
+    margin-left: 130px;
+}
+.glouck img{
+    width: 100%;
+    height: 40vh;
+}
+.your{
+    width: 40%;
+    height: 60vh;
+
+    margin-left: 20px;
+}
+.your img{
+    width: 100%;
+    height: 40vh;
+}
+.photoshop{
+    width: 40%;
+    height: 60vh;
+
+    margin-left: 130px;
+    margin-top: 20px;
+}
+.photoshop img{
+    width: 100%;
+    height: 40vh;
+}
+.runners{
+    width: 40%;
+    height: 60vh;
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.runners img{
+    width: 100%;
+    height: 40vh;
+}
+.speaks{
+    width: 40%;
+    height: 60vh;
+
+    margin-left: 130px;
+    margin-top: 20px;
+}
+.speaks img{
+    width: 100%;
+    height: 40vh;
+}
+.shooting{
+    width: 40%;
+    height: 60vh;
+
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.shooting img{
+    width: 100%;
+    height: 40vh;
+}
+.pro{
+    width: 40%;
+    height: 60vh;
+
+    margin-left: 130px;
+    margin-top: 20px;
+}
+.pro img{
+    width: 100%;
+    height: 40vh;
+}
+.photography{
+    width: 40%;
+    height: 60vh;
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.photography img{
+    width: 100%;
+    height: 40vh;
+}
+.pursit{
+    width: 40%;
+    height: 60vh;
+
+    margin-left: 130px;
+    margin-top: 20px;
+}
+.pursit img{
+    width: 100%;
+    height: 40vh;
+}
+.reflective{
+    width: 40%;
+    height: 60vh;
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.reflective img{
+    width: 100%;
+    height: 40vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.913);
+
+   
+}
+.foot{
+    display: flex;
+}
+.shop h3{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.shop h4{
+    color: #ddd6;
+    font-weight: 100;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.support h3{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.support h4{
+    color: #ddd6;
+    font-weight: 100;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.contact h3{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.contact h4{
+    color: #ddd6;
+    font-weight: 100;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.about h3{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.about h4{
+    color: #ddd6;
+    font-weight: 100;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.follow{
+    margin-left: 170px;
+    margin-top: 58px;
+    font-size: 18px;
+}
+.follow h3{
+    color: #fff;
+}
+.follow__i{
+    color: #ddd;
+    font-size: 25px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.follow i{
+    margin-left: 20px;
+}
+.follow h4{
+    font-size: 18px;
+    color: #fff;
+
+    margin-top: 30px;
+}
+.follow input{
+    width: 400px;
+    height: 55px;
+    border-radius: 15px;
+    border:  1px solid #fff;
+    background: rgba(0, 0, 0, 0.913);
+    color: #fff;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.hr{
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.pastiki{
+    display: flex;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.right{
+    margin-left: 60px;
+}
+.glob{
+    margin-left: 38%;
+}
+.pastiki i{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px){
+    .nav{
+        width: 100%;
+    }
+    .collection{
+        display: none;
+    }
+    .img img{
+        width: 200px;
+        margin: auto;
+    }
+    .ittem{
+        /* display: none; */
+        margin-left: -150px;
+        font-size: 10px;
+        margin-top: 10p;
+    }
+    .ettem{
+        /* display: none; */
+        font-size: 10px;
+    }
+    .img{
+        margin: 0 -250px;
+    }
+    .font {
+        margin: auto;
+        margin-left: -55%;
+    }
+    .follow{
+        margin: auto;
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+    .shop{
+        display: none;
+    }
+    .support{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+    .follow input{
+        font-size: 10px;
+        width: 180px;
+        height: 30px;
+
+    }
+    .hr{
+        margin: auto;
+        width: 70%;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .footer{
+        height: 50vh;
+    }
+    .pastiki{
+        margin: auto;
+        font-size: 8px;
+    }
+    .right{
+        margin: auto;
+        margin-top: -20px;
+        margin-left: -370px;
+        width: 100%;
+    }
+    .glob{
+        margin: auto;
+        margin-top: -20px;
+
+    }
+    .pastiki i{
+        font-size: 15px;
+        margin: auto;
+        margin-top: -25px;
+    }
+    .copy{
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+    .follow h3{
+        margin-left: 20px;
+    }
+    .follow h4{
+        margin-left: 17px;
+    }
+    .sozlar{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .carousel{
+        width: 100%;
+        margin: auto;
+    }
+    .glouck{
+        width: 100%;
+        margin: auto;
+    }
+    .your{
+        width: 100%;
+        margin: auto;
+    }
+    .photoshop{
+        width: 100%;
+        margin: auto;
+    }
+    .runners{
+        width: 100%;
+        margin: auto;
+    }
+    .speaks{
+        width: 100%;
+        margin: auto;
+    }
+    .shooting{
+        width: 100%;
+        margin: auto;
+    }
+    .pro{
+        width: 100%;
+        margin: auto;
+    }
+    .photography{
+        width: 100%;
+        margin: auto;
+    }
+    .pursit{
+        width: 100%;
+        margin: auto;
+    }
+    .reflective{
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:1023px){
+    .nav{
+        width: 50%;
+    }
+    .item{
+        font-size: 8px;
+    }
+    .ittem{
+        font-size: 8px;
+        margin: 0 -10%;
+    }
+    .collection{
+        font-size: 8px;
+       margin: 18px -10%;
+       letter-spacing: none;
+    }
+    .ettem{
+        font-size: 8px;
+    }
+    .coll{
+        margin: 18px 0;
+    }
+
+    .font{
+        font-size: 14px;
+        margin-left: 50px;
+    }
+    .footer{
+        width: 100%;
+        height: 100vh;
+    }
+    .foot{
+        width: 100%;
+    }
+    .shop h3{
+        font-size: 8px;
+        width: 100%;
+        margin: auto;
+        margin-left: 44px;
+        margin-top: 60px;
+    }
+    .shop h4{
+        margin: auto;
+        font-size: 7px;
+        width: 100%;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+    .support h3{
+        font-size: 8px;
+        
+    }
+    .support h4{
+        font-size: 7px;
+    }
+    .contact h3{
+        font-size: 8px;
+        width: 100%;
+    }
+    .contact h4{
+        font-size: 7px;
+        width: 100%;
+    }
+    .about h3 {
+        font-size: 10px;
+    }
+    .follow h3{
+        font-size: 10px;
+    }
+    .follow h4{
+        font-size: 10px;
+    }
+    .about h3{
+        font-size: 8px;
+        width: 100%;
+    }
+    .about h4{
+        font-size: 7px;
+        width: 100%;
+    }
+    .follow h3{
+        font-size: 8px;
+    }
+    .follow h4{
+        font-size: 7px;
+    }
+    .follow__i{
+        font-size: 10px;
+    }
+    .follow input{
+        width: 150px;
+        height: 30px;
+        font-size: 8px;
+    }
+    .hr{
+        margin: auto;
+        margin-top: 200px;
+    }
+    .copy{
+        font-size: 8px;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: -100px;
+    }
+    .right{
+        font-size: 8px;
+        width: 100%;
+        margin: auto;
+     
+        margin-top: 10px;
+
+    }
+    .glob{
+        font-size: 8px;
+
+        margin: auto;
+    }
+    .pastiki i{
+        font-size: 15px;
+    }
+    .sozlar{
+        margin: auto;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    .icon{
+        margin: auto;
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+    .icon input{
+        width: 150px;
+    }
+    .carousel{
+        margin: auto;
+    }
+    .glouck{
+        margin: auto;
+    }
+    .your{
+        margin: auto;
+    }
+    .photoshop{
+        margin: auto;
+    }
+    .runners{
+        margin: auto;
+    }
+    .speaks{
+        margin: auto;
+    }
+    .shooting{
+        margin: auto;
+    }
+    .pro{
+        margin: auto;
+    }
+    .photography{
+        margin: auto;
+    }
+    .pursit{
+        margin: auto;
+    }
+    .reflective{
+        margin: auto;
+    }
+
+
+}
+@media (min-width:1024px){
+    .nav{
+        width: 25%; 
+     }
+     .yuza{
+         width: 100%;
+     }
+     .coll{
+         margin: 18px 10%;
+     }
+     .item{
+         font-size: 15px;
+     }
+     .coll li{
+         font-size: 15px;
+     }
+     .font{
+         font-size: 15px;
+         margin-left: 0;
+         margin-top: 20px;
+     }
+     .foot{
+        width: 100%;
+    }
+    .shop h3{
+        font-size: 15px;
+        width: 100%;
+    }
+    .shop h4{
+        font-size: 10px;
+        width: 100%;
+    }
+    .support h3{
+        font-size: 15px;
+    }
+    .support h4{
+        font-size: 10px;
+        width: 100%;
+    }
+    .contact{
+        margin-left: 50px;
+    }
+    .contact h3{
+        font-size: 15px;
+        width: 100%;
+    }
+    .contact h4{
+        font-size: 10px;
+    }
+    .about h3{
+        font-size: 15px;
+        width: 100%;
+    }
+    .about h4{
+        font-size: 10px;
+        width: 100%;
+    }
+    .follow{
+        margin: auto;
+        margin-top: 55px;
+    }
+    .follow input{
+        width: 170px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .hr{
+        margin: auto;
+        margin-top: 150px;
+    }
+
+    .copy{
+        margin: auto;
+        width: 100%;
+        font-size: 16px;
+        margin-left: -50px;
+    }
+    .glob{
+        margin: auto;
+        margin-left: -80px;
+    }
+    .right{
+        width: 100%;
+        margin: auto;
+        margin-left: 20px;
+    }
+    .footer{
+        height: 100vh;
+    }
+    .carousel{
+        margin: auto;
+    }
+    .glouck{
+        margin: auto;
+    }
+    .your{
+        margin: auto;
+    }
+    .photoshop{
+        margin: auto;
+    }
+    .runners{
+        margin: auto;
+    }
+    .speaks{
+        margin: auto;
+    }
+    .shooting{
+        margin: auto;
+    }
+    .pro{
+        margin: auto;
+    }
+    .photography{
+        margin: auto;
+    }
+    .pursit{
+        margin: auto;
+    }
+    .reflective{
+        margin: auto;
+    }
+
+}
